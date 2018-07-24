@@ -14,8 +14,8 @@ exports[`EditorCopy Element renders correctly 1`] = `
   font-size: 14px;
   text-transform: capitalize;
   opacity: 0;
-  -webkit-transition: opacity .1s ease-in-out;
-  transition: opacity .1s ease-in-out;
+  -webkit-transition: opacity 0.1s ease-in-out;
+  transition: opacity 0.1s ease-in-out;
 }
 
 .c0 svg {
@@ -45,8 +45,8 @@ exports[`adds expanded modifiers 1`] = `
   font-size: 14px;
   text-transform: capitalize;
   opacity: 0;
-  -webkit-transition: opacity .1s ease-in-out;
-  transition: opacity .1s ease-in-out;
+  -webkit-transition: opacity 0.1s ease-in-out;
+  transition: opacity 0.1s ease-in-out;
   opacity: 1;
 }
 
