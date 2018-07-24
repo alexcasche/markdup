@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sidebar Block renders correctly 1`] = `
+.c0 {
+  position: fixed;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  width: 300px;
+  height: 100vh;
+  font-family: "IBM Plex Sans Condensed",Helvetica,Arial,sans-serif;
+  background-color: #282a2c;
+  overflow-y: scroll;
+  z-index: 0;
+}
+
+<div
+  className="c0"
+/>
+`;

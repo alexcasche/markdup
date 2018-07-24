@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BannerInput Element renders correctly 1`] = `
+.c0 {
+  width: 100%;
+  margin-top: 6px;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #afb1b6;
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+<input
+  className="c0"
+  id="Banner-Input"
+  placeholder="Untitled"
+/>
+`;

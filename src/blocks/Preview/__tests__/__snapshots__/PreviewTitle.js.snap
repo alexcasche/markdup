@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PreviewTitle Element renders correctly 1`] = `
+.c0 {
+  margin: 0;
+  color: #999ba1;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+<p
+  className="c0"
+>
+  Preview
+</p>
+`;

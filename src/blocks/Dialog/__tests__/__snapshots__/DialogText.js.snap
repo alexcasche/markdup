@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DialogText Element renders correctly 1`] = `
+.c0 {
+  margin: 0;
+  padding: 20px 20px 30px;
+  text-align: left;
+  color: #b7b9be;
+  font-size: 17px;
+  font-weight: 500;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
+  line-height: 1.75;
+}
+
+.c0 svg {
+  color: #34F96E;
+  margin-right: 10px;
+}
+
+<p
+  className="c0"
+/>
+`;

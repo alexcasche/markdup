@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavbarBrand Element renders correctly 1`] = `
+.c0 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  position: relative;
+  bottom: 1px;
+  color: #ABADB3;
+  font-family: "IBM Plex Sans Condensed",Helvetica,Arial,sans-serif;
+  font-size: 23px;
+  -webkit-letter-spacing: 4px;
+  -moz-letter-spacing: 4px;
+  -ms-letter-spacing: 4px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: color 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out;
+}
+
+.c0:hover {
+  cursor: pointer;
+}
+
+.c0 span {
+  color: #888a8f;
+  -webkit-transition: inherit;
+  transition: inherit;
+}
+
+.c0:hover {
+  color: #eaeaec;
+}
+
+.c0:hover span {
+  color: #c8c9cd;
+}
+
+<a
+  className="c0"
+  href="/"
+  onClick={[Function]}
+>
+  <span>
+    markd
+  </span>
+  up
+</a>
+`;

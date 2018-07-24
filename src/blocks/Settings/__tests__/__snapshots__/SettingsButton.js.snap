@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SettingsButton Element adds checked modifier 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  font-family: "IBM Plex Sans Condensed",Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  width: 50%;
+  margin-top: 15px;
+  height: 40px;
+  background-color: #2b99b8;
+  border-radius: 0 4px 4px 0;
+  color: #f2f2f3;
+  font-size: 14px;
+  border-radius: 4px 0 0 4px;
+  pointer-events: none;
+  opacity: 0.85;
+}
+
+.c0:hover {
+  cursor: pointer;
+}
+
+.c0:hover {
+  background-color: #31aed1;
+}
+
+<a
+  className="c0"
+/>
+`;
+
+exports[`SettingsButton Element renders correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  font-family: "IBM Plex Sans Condensed",Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  width: 50%;
+  margin-top: 15px;
+  height: 40px;
+  background-color: #2b99b8;
+  border-radius: 0 4px 4px 0;
+  color: #f2f2f3;
+  font-size: 14px;
+}
+
+.c0:hover {
+  cursor: pointer;
+}
+
+.c0:hover {
+  background-color: #31aed1;
+}
+
+<a
+  className="c0"
+/>
+`;

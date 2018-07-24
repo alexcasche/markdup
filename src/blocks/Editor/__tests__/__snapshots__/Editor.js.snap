@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Editor Block renders correctly 1`] = `
+.c0 {
+  height: 100%;
+  background-color: white;
+  overflow: hidden;
+}
+
+<div
+  className="c0"
+/>
+`;

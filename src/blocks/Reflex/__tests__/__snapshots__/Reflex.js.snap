@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Reflex Block adds mobilePreview modifier 1`] = `
+.c0 .reflex-splitter {
+  z-index: 1 !important;
+  border-color: #e1e2e4 !important;
+}
+
+.c0.horizontal .reflex-splitter {
+  border-top: none !important;
+  height: 1px !important;
+}
+
+@media only screen and (max-width:600px) {
+  .c0.vertical {
+    width: 200vw !important;
+  }
+
+  .c0 .reflex-element {
+    -webkit-flex: 1 0 0% !important;
+    -ms-flex: 1 0 0% !important;
+    flex: 1 0 0% !important;
+  }
+
+  .c0 .reflex-splitter {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  .c0 {
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+}
+
+<div
+  className="reflex-layout reflex-container horizontal c0"
+  style={Object {}}
+/>
+`;
+
+exports[`Reflex Block renders correctly 1`] = `
+.c0 .reflex-splitter {
+  z-index: 1 !important;
+  border-color: #e1e2e4 !important;
+}
+
+.c0.horizontal .reflex-splitter {
+  border-top: none !important;
+  height: 1px !important;
+}
+
+@media only screen and (max-width:600px) {
+  .c0.vertical {
+    width: 200vw !important;
+  }
+
+  .c0 .reflex-element {
+    -webkit-flex: 1 0 0% !important;
+    -ms-flex: 1 0 0% !important;
+    flex: 1 0 0% !important;
+  }
+
+  .c0 .reflex-splitter {
+    display: none !important;
+  }
+}
+
+<div
+  className="reflex-layout reflex-container horizontal c0"
+  style={Object {}}
+/>
+`;

@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link Element renders correctly 1`] = `
+.c0 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.c0:hover {
+  cursor: pointer;
+}
+
+<a
+  className="c0"
+  to="/"
+>
+  Link
+</a>
+`;
+
+exports[`RouterLink Element renders correctly 1`] = `
+.c0 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.c0:hover {
+  cursor: pointer;
+}
+
+<a
+  className="c0"
+  to="/"
+>
+  Link
+</a>
+`;

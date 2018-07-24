@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BannerLabel Element renders correctly 1`] = `
+.c0 {
+  display: block;
+  color: #919398;
+  font-size: 11px;
+  text-transform: uppercase;
+  -webkit-letter-spacing: 2px;
+  -moz-letter-spacing: 2px;
+  -ms-letter-spacing: 2px;
+  letter-spacing: 2px;
+}
+
+<label
+  className="c0"
+>
+  Workspaces
+</label>
+`;

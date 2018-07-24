@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SidebarLink Element adds active modifier 1`] = `
+.c0 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  position: relative;
+  display: block;
+  padding: 0 0 0 50px;
+  border-bottom: 1px solid #3e4042;
+  color: #ABADB3;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 50px;
+  text-align: left;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  -webkit-transition: color 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out;
+}
+
+.c0:hover {
+  cursor: pointer;
+}
+
+.c0:last-child {
+  border-bottom: none;
+}
+
+.c0 svg {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-size: 15px;
+  -webkit-transition: inherit;
+  transition: inherit;
+}
+
+.c0 svg.fa-check-circle {
+  color: transparent;
+}
+
+.c0 svg.fa-link {
+  font-size: 14px;
+}
+
+.c0:hover {
+  cursor: pointer;
+  color: #34F96E;
+}
+
+.c0:hover svg {
+  color: #34F96E;
+}
+
+.c0:hover .fa-check-circle {
+  color: transparent;
+}
+
+.c0,
+.c0:hover {
+  pointer-events: none;
+  cursor: default;
+  color: #ABADB3;
+}
+
+.c0 svg.fa-check-circle,
+.c0:hover svg.fa-check-circle {
+  color: #ABADB3;
+}
+
+<a
+  className="c0"
+/>
+`;
+
+exports[`SidebarLink Element renders correctly 1`] = `
+.c0 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  position: relative;
+  display: block;
+  padding: 0 0 0 50px;
+  border-bottom: 1px solid #3e4042;
+  color: #ABADB3;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 50px;
+  text-align: left;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  -webkit-transition: color 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out;
+}
+
+.c0:hover {
+  cursor: pointer;
+}
+
+.c0:last-child {
+  border-bottom: none;
+}
+
+.c0 svg {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-size: 15px;
+  -webkit-transition: inherit;
+  transition: inherit;
+}
+
+.c0 svg.fa-check-circle {
+  color: transparent;
+}
+
+.c0 svg.fa-link {
+  font-size: 14px;
+}
+
+.c0:hover {
+  cursor: pointer;
+  color: #34F96E;
+}
+
+.c0:hover svg {
+  color: #34F96E;
+}
+
+.c0:hover .fa-check-circle {
+  color: transparent;
+}
+
+<a
+  className="c0"
+/>
+`;

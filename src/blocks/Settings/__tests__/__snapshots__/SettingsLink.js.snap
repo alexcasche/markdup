@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SettingsLink Element renders correctly 1`] = `
+.c0 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #ABADB3;
+  height: 50px;
+  text-transform: capitalize;
+  border-bottom: 1px solid #555659;
+  -webkit-transition: color 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out;
+}
+
+.c0:hover {
+  cursor: pointer;
+}
+
+.c0:hover {
+  color: #eaeaec;
+  cursor: pointer;
+}
+
+.c0:last-of-type {
+  border-bottom: none;
+}
+
+<a
+  className="c0"
+>
+  Link
+</a>
+`;

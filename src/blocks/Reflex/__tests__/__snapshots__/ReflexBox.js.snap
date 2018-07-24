@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReflexBox Element adds expanded modifier 1`] = `
+.c0 {
+  overflow: hidden;
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+@media only screen and (max-width:600px) {
+  .c0 {
+    width: 100vw !important;
+  }
+}
+
+<div
+  className="reflex-element c0"
+  style={
+    Object {
+      "FlexElement": undefined,
+      "MozBoxFlex": undefined,
+      "WebkitBoxFlex": undefined,
+      "WebkitFlex": undefined,
+      "flex": undefined,
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "height": "100%",
+        "width": "100%",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`ReflexBox Element renders correctly 1`] = `
+.c0 {
+  overflow: hidden;
+}
+
+@media only screen and (max-width:600px) {
+  .c0 {
+    width: 100vw !important;
+  }
+}
+
+<div
+  className="reflex-element c0"
+  style={
+    Object {
+      "FlexElement": undefined,
+      "MozBoxFlex": undefined,
+      "WebkitBoxFlex": undefined,
+      "WebkitFlex": undefined,
+      "flex": undefined,
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "height": "100%",
+        "width": "100%",
+      }
+    }
+  />
+</div>
+`;

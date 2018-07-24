@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SidebarBrand Element renders correctly 1`] = `
+.c0 {
+  margin: 0;
+  color: #888a8f;
+  font-size: 28px;
+  font-weight: 400;
+  -webkit-letter-spacing: 6px;
+  -moz-letter-spacing: 6px;
+  -ms-letter-spacing: 6px;
+  letter-spacing: 6px;
+  line-height: 86px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.c0 span {
+  color: #ABADB3;
+}
+
+<h1
+  className="c0"
+/>
+`;

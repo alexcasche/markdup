@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Settings Block renders correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  z-index: 1;
+  position: fixed;
+  top: 70px;
+  right: 30px;
+  max-height: calc(100vh - 70px);
+  overflow-y: scroll;
+  background-color: #1D1F21;
+  border-radius: 4px;
+  padding: 12px 20px 30px;
+  width: 300px;
+}
+
+<nav
+  className="c0"
+/>
+`;

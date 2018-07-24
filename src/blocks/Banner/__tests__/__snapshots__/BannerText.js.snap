@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BannerText Element renders correctly 1`] = `
+.c0 {
+  color: #919398;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 20px;
+  -webkit-letter-spacing: 2px;
+  -moz-letter-spacing: 2px;
+  -ms-letter-spacing: 2px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.c0 span {
+  margin-left: 5px;
+  color: #afb1b6;
+  font-weight: 400;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
+}
+
+<p
+  className="c0"
+>
+  Lines: 
+  <span>
+    10
+  </span>
+  <br />
+  Characters: 
+  <span>
+    250
+  </span>
+</p>
+`;

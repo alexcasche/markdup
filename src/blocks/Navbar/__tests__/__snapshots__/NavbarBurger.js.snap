@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavbarBurger Element adds open modifier 1`] = `
+.c0 {
+  position: relative;
+  background-color: #ABADB3;
+  width: 20px;
+  height: 2px;
+  -webkit-transition: inherit;
+  transition: inherit;
+  background-color: transparent;
+}
+
+.c0:before,
+.c0:after {
+  position: absolute;
+  left: 0;
+  top: -6px;
+  content: '';
+  width: inherit;
+  height: inherit;
+  background-color: #ABADB3;
+  width: 20px;
+  height: 2px;
+  -webkit-transition: inherit;
+  transition: inherit;
+}
+
+.c0:after {
+  top: 6px;
+}
+
+.c0:before {
+  -webkit-transform: rotate(-45deg) translate(-4px,4px);
+  -ms-transform: rotate(-45deg) translate(-4px,4px);
+  transform: rotate(-45deg) translate(-4px,4px);
+}
+
+.c0:after {
+  -webkit-transform: rotate(45deg) translate(-4px,-4px);
+  -ms-transform: rotate(45deg) translate(-4px,-4px);
+  transform: rotate(45deg) translate(-4px,-4px);
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`NavbarBurger Element renders correctly 1`] = `
+.c0 {
+  position: relative;
+  background-color: #ABADB3;
+  width: 20px;
+  height: 2px;
+  -webkit-transition: inherit;
+  transition: inherit;
+}
+
+.c0:before,
+.c0:after {
+  position: absolute;
+  left: 0;
+  top: -6px;
+  content: '';
+  width: inherit;
+  height: inherit;
+  background-color: #ABADB3;
+  width: 20px;
+  height: 2px;
+  -webkit-transition: inherit;
+  transition: inherit;
+}
+
+.c0:after {
+  top: 6px;
+}
+
+<span
+  className="c0"
+/>
+`;

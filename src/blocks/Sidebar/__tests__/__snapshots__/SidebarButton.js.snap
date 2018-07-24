@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SidebarButton Element adds delete modifier 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  font-family: "IBM Plex Sans Condensed",Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  margin: 10px auto;
+  width: calc(100% - 30px);
+  height: 44px;
+  font-size: 16px;
+  color: #1D1F21;
+  background-color: transparent;
+  font-size: 14px;
+  border: 1px solid #808186;
+  color: #808186;
+}
+
+.c0:hover {
+  cursor: pointer;
+}
+
+.c0:hover:not(:active) {
+  border: 1px solid #ABADB3;
+  color: #ABADB3;
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`SidebarButton Element adds new modifier 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  font-family: "IBM Plex Sans Condensed",Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  margin: 10px auto;
+  width: calc(100% - 30px);
+  height: 44px;
+  font-size: 16px;
+  color: #1D1F21;
+  margin-top: 15px;
+  background-color: #31aed1;
+}
+
+.c0:hover {
+  cursor: pointer;
+}
+
+.c0:hover:not(:active) {
+  background-color: #3ACDF6;
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`SidebarButton Element adds save modifier 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  font-family: "IBM Plex Sans Condensed",Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  margin: 10px auto;
+  width: calc(100% - 30px);
+  height: 44px;
+  font-size: 16px;
+  color: #1D1F21;
+  background-color: #2cd35d;
+}
+
+.c0:hover {
+  cursor: pointer;
+}
+
+.c0:hover:not(:active) {
+  background-color: #34F96E;
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`SidebarButton Element renders correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  font-family: "IBM Plex Sans Condensed",Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  margin: 10px auto;
+  width: calc(100% - 30px);
+  height: 44px;
+  font-size: 16px;
+  color: #1D1F21;
+}
+
+.c0:hover {
+  cursor: pointer;
+}
+
+<button
+  className="c0"
+/>
+`;

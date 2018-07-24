@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DialogClose Element renders correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  font-family: "IBM Plex Sans Condensed",Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  background-color: #2f3032;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 8px 11px 8px 12px;
+  border-radius: 0 5px 0 5px;
+  font-size: 16px;
+}
+
+.c0:hover {
+  cursor: pointer;
+}
+
+.c0 svg {
+  color: #c8c9cd;
+}
+
+.c0:hover {
+  background-color: #2a2c2e;
+}
+
+.c0:hover svg {
+  color: #cccdd1;
+}
+
+<button
+  className="c0"
+/>
+`;

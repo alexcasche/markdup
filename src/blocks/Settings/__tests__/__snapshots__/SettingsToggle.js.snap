@@ -1,0 +1,170 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SettingsToggle Element adds checked modifier 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  pointer-events: none;
+}
+
+.c0 .react-toggle .react-toggle-thumb {
+  box-shadow: none !important;
+}
+
+.c0 .react-toggle-track {
+  background-color: #555659;
+}
+
+.c0 .react-toggle-track {
+  background-color: #2ee063 !important;
+}
+
+<div
+  className="react-toggle c0"
+  onClick={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+>
+  <div
+    className="react-toggle-track"
+  >
+    <div
+      className="react-toggle-track-check"
+    >
+      <svg
+        height="11"
+        viewBox="0 0 14 11"
+        width="14"
+      >
+        <title>
+          switch-check
+        </title>
+        <path
+          d="M11.264 0L5.26 6.004 2.103 2.847 0 4.95l5.26 5.26 8.108-8.107L11.264 0"
+          fill="#fff"
+          fillRule="evenodd"
+        />
+      </svg>
+    </div>
+    <div
+      className="react-toggle-track-x"
+    >
+      <svg
+        height="10"
+        viewBox="0 0 10 10"
+        width="10"
+      >
+        <title>
+          switch-x
+        </title>
+        <path
+          d="M9.9 2.12L7.78 0 4.95 2.828 2.12 0 0 2.12l2.83 2.83L0 7.776 2.123 9.9 4.95 7.07 7.78 9.9 9.9 7.776 7.072 4.95 9.9 2.12"
+          fill="#fff"
+          fillRule="evenodd"
+        />
+      </svg>
+    </div>
+  </div>
+  <div
+    className="react-toggle-thumb"
+  />
+  <input
+    className="react-toggle-screenreader-only"
+    modifiers={
+      Array [
+        "checked",
+      ]
+    }
+    onBlur={[Function]}
+    onFocus={[Function]}
+    type="checkbox"
+  />
+</div>
+`;
+
+exports[`SettingsToggle Element renders correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  pointer-events: none;
+}
+
+.c0 .react-toggle .react-toggle-thumb {
+  box-shadow: none !important;
+}
+
+.c0 .react-toggle-track {
+  background-color: #555659;
+}
+
+<div
+  className="react-toggle c0"
+  onClick={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+>
+  <div
+    className="react-toggle-track"
+  >
+    <div
+      className="react-toggle-track-check"
+    >
+      <svg
+        height="11"
+        viewBox="0 0 14 11"
+        width="14"
+      >
+        <title>
+          switch-check
+        </title>
+        <path
+          d="M11.264 0L5.26 6.004 2.103 2.847 0 4.95l5.26 5.26 8.108-8.107L11.264 0"
+          fill="#fff"
+          fillRule="evenodd"
+        />
+      </svg>
+    </div>
+    <div
+      className="react-toggle-track-x"
+    >
+      <svg
+        height="10"
+        viewBox="0 0 10 10"
+        width="10"
+      >
+        <title>
+          switch-x
+        </title>
+        <path
+          d="M9.9 2.12L7.78 0 4.95 2.828 2.12 0 0 2.12l2.83 2.83L0 7.776 2.123 9.9 4.95 7.07 7.78 9.9 9.9 7.776 7.072 4.95 9.9 2.12"
+          fill="#fff"
+          fillRule="evenodd"
+        />
+      </svg>
+    </div>
+  </div>
+  <div
+    className="react-toggle-thumb"
+  />
+  <input
+    className="react-toggle-screenreader-only"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    type="checkbox"
+  />
+</div>
+`;

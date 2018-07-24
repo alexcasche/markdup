@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditorCopy Element renders correctly 1`] = `
+.c0 {
+  position: absolute;
+  top: 42px;
+  right: -20px;
+  width: 160px;
+  pointer-events: none;
+  padding: 8px 16px;
+  background-color: #3e4042;
+  border-radius: 2px;
+  color: #afb1b6;
+  font-size: 14px;
+  text-transform: capitalize;
+  opacity: 0;
+  -webkit-transition: opacity .1s ease-in-out;
+  transition: opacity .1s ease-in-out;
+}
+
+.c0 svg {
+  position: absolute;
+  right: 26px;
+  top: -18px;
+  height: 30px;
+  color: #3e4042;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`adds expanded modifiers 1`] = `
+.c0 {
+  position: absolute;
+  top: 42px;
+  right: -20px;
+  width: 160px;
+  pointer-events: none;
+  padding: 8px 16px;
+  background-color: #3e4042;
+  border-radius: 2px;
+  color: #afb1b6;
+  font-size: 14px;
+  text-transform: capitalize;
+  opacity: 0;
+  -webkit-transition: opacity .1s ease-in-out;
+  transition: opacity .1s ease-in-out;
+  opacity: 1;
+}
+
+.c0 svg {
+  position: absolute;
+  right: 26px;
+  top: -18px;
+  height: 30px;
+  color: #3e4042;
+}
+
+<div
+  className="c0"
+/>
+`;
