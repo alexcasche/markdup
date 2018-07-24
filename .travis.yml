@@ -3,6 +3,14 @@ node_js:
   - "node"
 env: 
   - NODE_PATH=src/
-deploy:
+script:
+  - yarn test
   - yarn build
-  - yarn deploy
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  keep-history: true
+  local-dir: './build'
+  on:
+    branch: master
