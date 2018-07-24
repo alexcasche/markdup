@@ -3,13 +3,11 @@ import { initSettings, initWorkspaces } from 'actions'
 
 export const appSetup = () => {
   const session = getSession()
-  if (session) {
-    return dispatch => {
+  return dispatch => {
+    if (session) {
       const { settings, workspaces } = session
       dispatch(initSettings(settings))
       dispatch(initWorkspaces(workspaces))
     }
-  } else {
-    return null
   }
 }

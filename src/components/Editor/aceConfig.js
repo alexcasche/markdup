@@ -18,7 +18,7 @@ const styles = {
   width: '100%',
   height: '100%',
   minHeight: '100%',
-  lineHeight: '2.25em',
+  lineHeight: '2em',
   fontFamily:
     "'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace",
   letterSpacing: 'normal',

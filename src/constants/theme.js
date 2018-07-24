@@ -9,6 +9,7 @@ export default {
   },
   text: {
     fontSans: '"IBM Plex Sans Condensed", Helvetica, Arial, sans-serif',
+    fontLogo: '"Raleway", sans-serif',
     fontCode:
       '-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"',
     baseSize: '17px',

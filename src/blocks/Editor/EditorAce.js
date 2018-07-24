@@ -22,6 +22,9 @@ const EditorAce = styled(Ace)`
   .ace_scrollbar-v {
     display: none !important;
   }
+  .ace_active-line {
+    background: rgb(245, 245, 245) !important;
+  }
 `
 
 export default EditorAce

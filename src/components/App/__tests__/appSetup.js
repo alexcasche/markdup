@@ -19,7 +19,9 @@ describe('localStorage functions', () => {
   })
 
   it('returns null if session empty', () => {
-    expect(appSetup()).toEqual(null)
+    store.dispatch(appSetup())
+    actions = store.getActions()
+    expect(actions).toEqual([])
   })
 
   it('saves settings to store', () => {

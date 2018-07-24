@@ -1,5 +1,6 @@
 import React from 'react'
 import { connect } from 'react-redux'
+import { bindActionCreators } from 'redux'
 import AppComponent from './AppComponent'
 import { getAllSettings, getAllWorkspaces } from 'selectors'
 import { appSetup } from './appSetup'
@@ -18,7 +19,7 @@ function mapStateToProps(state) {
 function mapDispatchToProps(dispatch) {
   return {
     actions: {
-      appSetup: appSetup,
+      appSetup: bindActionCreators(appSetup, dispatch),
       saveSession: saveSession,
     },
   }

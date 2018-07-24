@@ -2,12 +2,10 @@ import { RouterLink } from 'elements'
 import { shade, tint } from 'polished'
 
 const NavbarBrand = RouterLink.extend`
-  position: relative;
-  bottom: 1px;
   color: ${props => props.theme.colors.grey};
-  font-family: ${props => props.theme.text.fontSans};
-  font-size: 23px;
-  letter-spacing: 4px;
+  font-family: ${props => props.theme.text.fontLogo};
+  font-size: 20px;
+  letter-spacing: 3px;
   text-transform: uppercase;
   text-decoration: none;
   transition: color 0.15s ease-in-out;
