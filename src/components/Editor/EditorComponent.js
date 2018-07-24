@@ -25,7 +25,9 @@ export default class EditorComponent extends Component {
   }
   componentDidUpdate(newProps, newState) {
     const { editor, showCopy } = this.state
-    if (newProps.resizing) setTimeout(() => editor.resize())
+    if (newProps.resizing || newProps.expanded !== this.props.expanded) {
+      setTimeout(() => editor.resize())
+    }
     if (showCopy) {
       setTimeout(() => this.setState({ showCopy: false }), 650)
     }
