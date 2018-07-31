@@ -1,7 +1,7 @@
 {
   "name": "markdup",
   "version": "0.0.1",
-  "description": "MarkedUp is an online Markdown editor powered by React + Redux.",
+  "description": "MarkdUp is an online Markdown editor powered by React + Redux.",
   "author": "alexcasche",
   "license": "MIT",
   "homepage": "https://alexcasche.github.io/markdup",

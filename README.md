@@ -1,6 +1,6 @@
-# MarkedUp
+# MarkdUp
 
-MarkedUp is an online Markdown editor powered by React + Redux.
+MarkdUp is an online Markdown editor powered by React + Redux.
 
 ![Build Status][Travis-shield] ![JavaScript Style Guide][Prettier-shield] ![Packagist][MIT-shield]
  
