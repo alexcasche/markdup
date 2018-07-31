@@ -4,7 +4,7 @@
   "description": "MarkdUp is an online Markdown editor powered by React + Redux.",
   "author": "alexcasche",
   "license": "MIT",
-  "homepage": "https://alexcasche.github.io/markdup",
+  "homepage": "https://markdup.org",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.0-14",
     "@fortawesome/free-solid-svg-icons": "^5.1.0-11",
