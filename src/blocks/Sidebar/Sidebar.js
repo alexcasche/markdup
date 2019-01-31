@@ -15,6 +15,7 @@ const Sidebar = styled.div`
   font-family: ${props => props.theme.text.fontSans};
   background-color: ${props => tint(0.95, props.theme.colors.black)};
   overflow-y: scroll;
+  z-index: 0;
 `
 
 Sidebar.Brand = SidebarBrand

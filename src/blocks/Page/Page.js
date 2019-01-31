@@ -9,6 +9,7 @@ const MODIFIERS = {
 }
 
 const Page = styled.div`
+  position: relative;
   display: flex;
   flex-direction: column;
   background-color: #fafafa;

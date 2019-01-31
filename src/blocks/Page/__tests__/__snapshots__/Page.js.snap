@@ -2,6 +2,7 @@
 
 exports[`Page Block adds sidebar modifier 1`] = `
 .c0 {
+  position: relative;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -28,6 +29,7 @@ exports[`Page Block adds sidebar modifier 1`] = `
 
 exports[`Page Block renders correctly 1`] = `
 .c0 {
+  position: relative;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
